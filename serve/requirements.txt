@@ -1,4 +1,8 @@
 # first install PyTorch with desired CPU or GPU support: https://pytorch.org/get-started/locally/
-transformers==4.8.2
-Flask==2.0.1
+transformers==4.38.0
+Flask==2.2.5
 
+huggingface-hub>=0.13.4 # not directly required, pinned by Snyk to avoid a vulnerability
+numpy>=1.22.2 # not directly required, pinned by Snyk to avoid a vulnerability
+requests>=2.32.0 # not directly required, pinned by Snyk to avoid a vulnerability
+werkzeug>=3.0.3 # not directly required, pinned by Snyk to avoid a vulnerability
